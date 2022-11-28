@@ -8,7 +8,7 @@ int main()//Aqui iniciamos la ejecucion del programa.
 	cout<<"Ingrese l: ";cin>>HABC_l;//Usamos cout para mostar por pantalla cualquier dato y cin para que el usuario ingrese datos.
 	do{////Usamos do-while para repetir una instruccion hasta que la expresion especificada sea falsa.
 	cout<<"Ingrese x: ";cin>>HABC_x;//Usamos cout para mostrar un mensaje por pantalla y que el usuario lo ingrese.
-	HABC_i=MPLA_i+1;//Aumentamos el contador.
+	HABC_i=HABC_i+1;//Aumentamos el contador.
 	if(HABC_x>HABC_pm){//Usamos if como una composición de seleccion para tomar elecciones en  base a una expresion y abrimos llave.
 		HABC_pm=HABC_x;//Igualamos la variable HABC_pm con la variable HABC_x.
 	}//Cerramos llave y la estructura del if.
